@@ -48,7 +48,7 @@
 #define EOF -1
 #endif
 
-#define PRINT_BUFFER_LEN 256
+#define PRINT_BUFFER_LEN 4096 // TODO would like to set this through a function
 
 // The aJson structure:
 typedef struct aJsonObject {
